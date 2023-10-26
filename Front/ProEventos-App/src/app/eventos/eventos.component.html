@@ -1,0 +1,16 @@
+<h1>Eventos do components</h1>
+
+<!-- <p>{{eventos[0].Tema}}</p>
+<p>{{eventos[0].Local}}</p>
+
+<p>{{eventos[1].Tema}}</p>
+<p>{{eventos[1].Local}}</p>
+
+<p>{{eventos[2].Tema}}</p>
+<p>{{eventos[2].Local}}</p> -->
+
+<div *ngFor="let evento of eventos">
+<p><b>Tema:</b>{{evento.tema}}</p>
+<p><b>Local:</b>{{evento.local}}</p>
+<hr>
+</div>
